@@ -1,4 +1,16 @@
-pypurl
-======
+== PyPurl
 
-The Python Persistent URL provider
+PyPurl is a simple implementation of the https://en.wikipedia.org/wiki/PURL[Persistent URL (PURL)].
+
+=== Why Another PURL Provider?
+
+Presently, there's two major implementations for PURLs: http://purlz.org/[Purlz] and its successor, http://callimachusproject.org/[Callimachus].
+The problem with these implementations is:
+
+# PURLz's development has ceased.
+# Callimachus's goals are much larger than just PURLs.  They are focused on developing a https://en.wikipedia.org/wiki/Linked_Data[Linked Data] platform.
+
+While I can appreciate the goals of Callimachus, there's a lot of additional capability that isn't needed for a simple PURL provider (such as Semantic Web tools like Sesame, or a DocBook rendering engine, or even an XProc implementation).
+
+The goal of this project is to provide a clean-cut, easy-to-use, and Open PURL web application built on Python technology.
+
