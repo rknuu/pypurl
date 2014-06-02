@@ -1,7 +1,15 @@
 == PyPurl
 
+'This project is still undergoing planning and development'
+
+'Use at your own risk!!!'
+
 PyPurl is a simple implementation of the
 https://en.wikipedia.org/wiki/PURL[Persistent URL (PURL)].
+
+=== Dependencies
+
+'To Be Determined'
 
 === Why Another PURL Provider?
 
